@@ -15,7 +15,7 @@ const FloatingButtons = () => {
       {/* Scroll to top */}
       <button
         onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
-        className={`fixed bottom-20 right-6 z-50 w-11 h-11 rounded-full bg-primary text-primary-foreground flex items-center justify-center shadow-lg transition-all duration-300 hover:scale-110 ${showTop ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4 pointer-events-none"}`}
+        className={`fixed mb-3 bottom-20 right-6 z-50 w-11 h-11 rounded-full bg-primary text-primary-foreground flex items-center justify-center shadow-lg transition-all duration-300 hover:scale-110 ${showTop ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4 pointer-events-none"}`}
         aria-label="Scroll to top"
       >
         <ArrowUp size={20} />

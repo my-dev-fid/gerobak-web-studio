@@ -45,11 +45,11 @@ const cards: CardData[] = [
   },
   {
     title: "Slot Terbuka",
-    description: "Jadilah klien pertama GerobakWeb",
-    tags: ["Mini Web", "PKL"],
+    description: "Jadilah bagian dari klien GerobakWeb",
+    tags: ["Mini Web", "Landing Page"],
     status: "open",
     previewDescription:
-      "Slot ini terbuka untuk kamu! Jadilah salah satu klien pertama GerobakWeb dan dapatkan harga promo spesial.",
+      "Slot ini terbuka untuk kamu! Jadilah salah satu klien GerobakWeb dan dapatkan harga promo spesial.",
   },
 ];
 

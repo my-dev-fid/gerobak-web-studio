@@ -3,7 +3,9 @@ import { Button } from "@/components/ui/button";
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 import contactImg from "@/assets/contact-illustration.png";
 
-const paketOptions = ["Mini Web — 250rb", "Starter — 300rb", "Standard — 500rb", "Kustom"];
+const paketOptions = ["Mini Web — 100rb", "Mulai — 300rb", "Serius — 500rb", "Kustom"];
+const adminWA ="6283116293051";
+const adminEmail ="fidihartato.pidi@gmail.com";
 
 type Tab = "whatsapp" | "email";
 
@@ -17,14 +19,14 @@ const ContactSection = () => {
   const handleWhatsApp = (e: React.FormEvent) => {
     e.preventDefault();
     const msg = `Halo GerobakWeb! 👋\n\nNama: ${form.nama}\nUsaha: ${form.usaha || "-"}\nPaket: ${form.paket}\n\n${form.pesan}`;
-    window.open(`https://wa.me/628XXXXXXXXXX?text=${encodeURIComponent(msg)}`, "_blank");
+    window.open(`https://wa.me/${adminWA}?text=${encodeURIComponent(msg)}`, "_blank");
   };
 
   const handleEmail = (e: React.FormEvent) => {
     e.preventDefault();
     const subject = `[GerobakWeb] Inquiry dari ${form.nama}`;
     const body = `Nama: ${form.nama}\nEmail: ${form.email}\nUsaha: ${form.usaha || "-"}\nPaket: ${form.paket}\n\n${form.pesan}`;
-    window.open(`mailto:hello@gerobakweb.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`, "_blank");
+    window.open(`mailto:${adminEmail}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`, "_blank");
   };
 
   const inputClass = "w-full rounded-lg border border-input bg-background px-4 py-2.5 text-sm text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary/50 transition-shadow";
@@ -36,7 +38,8 @@ const ContactSection = () => {
           <h2 className="text-3xl sm:text-4xl font-bold font-heading text-foreground mb-4">
             Siap Mulai? <span className="gradient-text">Cerita Dulu</span> Sama Gw
           </h2>
-          <p className="text-muted-foreground">Pilih cara yang paling nyaman buat kamu. Gw balas secepat mungkin.</p>
+          <p className="text-muted-foreground">Lo ngobrol langsung sama yang ngerjain — bukan customer service, bukan bot.
+          </p>
         </div>
 
         <div className={`grid lg:grid-cols-2 gap-12 items-center transition-all duration-700 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}>

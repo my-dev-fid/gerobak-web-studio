@@ -91,11 +91,11 @@
   }
 
   .glass-effect {
-    @apply bg-background/80 backdrop-blur-lg border-b border-border/50;
+    @apply bg-background border-b border-border/50;
   }
 
   .dark .glass-effect {
-    @apply bg-background/90;
+    @apply bg-background;
   }
 
   .card-hover {

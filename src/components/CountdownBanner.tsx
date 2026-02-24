@@ -9,7 +9,7 @@ const CountdownBanner = () => {
     }
     const end = Date.now() + 7 * 24 * 60 * 60 * 1000;
     localStorage.setItem("gw-countdown-end", String(end));
-    return 7 * 24 * 60 * 60;
+    return 3 * 24 * 60 * 60;
   });
 
   useEffect(() => {

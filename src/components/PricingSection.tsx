@@ -1,7 +1,8 @@
-import { Store, Rocket, Building2, Wrench, Check } from "lucide-react";
+import { Heart, Rocket, Building2, Wrench, Check } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
-
+/*
+*/
 const packages = [
   {
     id: "minimal",
@@ -9,31 +10,31 @@ const packages = [
     badge: null,
     originalPrice: "250rb",
     price: "100rb",
-    description: "Cocok untuk Pedagang kaki lima dan UMKM yang mau tampilkan menu, link, atau kontak usaha.",
-    icon: Store,
-    features: ["1 halaman landing", "Tampilkan menu / link bio", "Nomor WA & lokasi Maps", "Mobile friendly", "Revisi 1x"],
+    description: "Nggak harus website besar untuk mulai keliatan. Yang penting ada, yang penting bisa dihubungi.",
+    icon: Heart,
+    features: ["1 halaman — dirancang sesuai kebutuhan", "Tampilan mobile friendly", "Tombol WhatsApp langsung", "Embed lokasi Google Maps", "Link menu / katalog / sosmed", "Revisi 1x (di luar brief awal)"],
     highlight: false,
   },
   {
-    id: "starter",
-    name: "Starter",
+    id: "mulai",
+    name: "Mulai",
     badge: "Populer",
     originalPrice: "500rb",
     price: "300rb",
-    description: "Mulai tampil di era digital. Cocok untuk UMKM yang baru mau go online.",
+    description: "Sosmed buat narik perhatian. Website buat kredibilitas — dan rumah. Sekarang saatnya punya keduanya.",
     icon: Rocket,
-    features: ["Hingga 2 halaman", "Home, About", "WhatsApp button", "Google Maps embed", "Mobile friendly", "Revisi 1x"],
+    features: ["1–2 halaman — dirancang sesuai kebutuhan", "Halaman Home & About", "Tampilan mobile friendly", "Tombol WhatsApp langsung", "Embed lokasi Google Maps", "Revisi 1x (di luar brief awal)"],
     highlight: true,
   },
   {
-    id: "standard",
-    name: "Standard",
+    id: "serius",
+    name: "Serius",
     badge: null,
     originalPrice: "900rb",
     price: "500rb",
-    description: "Landing page atau company profile yang lebih lengkap untuk usaha tingkat menengah.",
+    description: `Buat yang udah nggak mau setengah-setengah. Landing page yang beneran proper — bukan sekedar "yang penting ada."`,
     icon: Building2,
-    features: ["Hingga 4 halaman", "Desain lebih custom", "Form kontak", "WhatsApp & Maps integration", "Mobile friendly", "Revisi 2x"],
+    features: ["1–3 halaman — dirancang sesuai kebutuhan", "Tampilan mobile friendly", "Tombol WhatsApp langsung", "Embed lokasi Google Maps", "Form kontak", "Revisi 2x (di luar brief awal)"],
     highlight: false,
   },
   {
@@ -42,9 +43,9 @@ const packages = [
     badge: "Fleksibel",
     originalPrice: null,
     price: "Hubungi Dulu",
-    description: "Punya kebutuhan spesifik? Desain atau fitur tertentu? Cerita dulu, gw kasih penawaran.",
+    description: "Buat yang tau persis apa yang mereka mau — atau sama sekali belum tau harus mulai dari mana. Dua-duanya bisa, diskusi dulu.",
     icon: Wrench,
-    features: ["Desain dari nol", "Fitur sesuai kebutuhan", "Diskusi langsung", "Penawaran custom", "Timeline fleksibel"],
+    features: ["Diskusi langsung dari awal", "Desain & fitur disesuai kebutuhan", "Timeline disepakati bersama", "Penawaran harga transparan", "Revisi sesuai kesepakatan"],
     highlight: false,
   },
 ];
@@ -122,7 +123,7 @@ const PricingSection = () => {
         </div>
 
         <p className="text-center text-sm text-muted-foreground mt-8">
-          * Harga belum termasuk domain dan hosting. Gw bantu setup dan rekomendasiin yang paling hemat.
+          * Harga belum termasuk domain dan hosting. Gw bantu setup dan rekomendasiin yang paling hemat. (opsional)
         </p>
       </div>
     </section>

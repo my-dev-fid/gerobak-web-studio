@@ -3,13 +3,13 @@ import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 
 const items = [
   { q: "Apa itu GerobakWeb?", a: "Jasa website personal — bukan agency, langsung dikerjain sendiri. Lebih cepat, lebih personal, lebih hemat." },
-  { q: "Berapa lama website jadi?", a: "Tergantung paket. Mini Web bisa 1–3 hari. Starter 3–5 hari. Standard sekitar 5–7 hari kerja." },
-  { q: "Domain dan hosting include tidak?", a: "Belum termasuk. Tapi gw bantu setup dan rekomendasiin platform hosting yang paling hemat sesuai kebutuhan kamu — bahkan ada yang gratis." },
-  { q: "Bisa revisi tidak?", a: "Bisa. Mini Web 1x revisi, Starter 2x, Standard 3x. Revisi di luar ketentuan bisa diskusi." },
-  { q: "Kalau nanti mau update konten gimana?", a: "Gw ajarin cara updatenya kalau memungkinkan, atau bisa hubungi gw lagi untuk perubahan konten dengan biaya yang sangat terjangkau." },
-  { q: "Apakah website bisa dibuka di HP?", a: "Ya, semua paket sudah mobile friendly dan diuji di berbagai ukuran layar." },
-  { q: "Cara pembayarannya bagaimana?", a: "50% di awal sebagai tanda jadi, 50% setelah website selesai dan kamu setuju dengan hasilnya." },
-  { q: "Melayani seluruh Indonesia?", a: "Ya! Semua dikerjain remote, jadi kamu di mana aja tetap bisa gw bantu." },
+  { q: "Berapa lama website jadi?", a: "Tergantung paket. Mini Web bisa 1–3 hari. Mulai 3–5 hari. Serius sekitar 5–7 hari kerja." },
+  { q: "Domain dan hosting include tidak?", a: "Belum termasuk. Tapi gw bantu setup dan rekomendasiin platform hosting yang paling hemat sesuai kebutuhan kamu atau dikelola Gw dulu juga bisa." },
+  { q: "Bisa revisi tidak?", a: "Bisa. Mini Web 1x revisi, Mulai 1x, Serius 2x. Revisi di luar ketentuan bisa diskusi." },
+  // { q: "Kalau nanti mau update konten gimana?", a: "Gw ajarin cara updatenya kalau memungkinkan, atau bisa hubungi gw lagi untuk perubahan konten dengan biaya yang sangat terjangkau." },
+  { q: "Apakah website bisa dibuka di HP?", a: "Ya, semua paket sudah pasti mobile friendly." },
+  { q: "Cara pembayarannya bagaimana?", a: "20% di awal sebagai tanda perjanjian, setelah website selesai dan kamu setuju dengan hasilnya. selesaikan pembayarannya" },
+  { q: "Melayani seluruh Indonesia?", a: "Ya! Semua dikerjain remote, jadi kamu di mana aja tetap bisa." },
 ];
 
 const FAQSection = () => {

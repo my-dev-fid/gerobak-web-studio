@@ -2,12 +2,12 @@ import { User, BadgeCheck, Zap, Settings2, Smartphone, Globe } from "lucide-reac
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 
 const features = [
-  { icon: User, title: "Langsung ke Orangnya", description: "Tidak ada perantara, tidak ada miskomunikasi. Kamu ngobrol langsung sama yang desain dan coding." },
+  { icon: User, title: "Langsung ke Orangnya", description: "Tidak ada perantara, tidak ada miskomunikasi. Kamu ngobrol langsung sama yang ngerjain." },
   { icon: BadgeCheck, title: "Harga Transparan", description: "Tidak ada biaya tersembunyi. Harga sudah termasuk semua yang tertera di paket." },
   { icon: Zap, title: "Respon Cepat", description: "Chat langsung dibalas. Tidak perlu nunggu ticket support atau antri di CS." },
   { icon: Settings2, title: "Fleksibel", description: "Bisa diskusi kebutuhan spesifik usaha kamu. Tidak kaku seperti agency." },
-  { icon: Smartphone, title: "Mobile Friendly", description: "Semua website tampil sempurna di HP. Karena mayoritas pelanggan kamu buka dari HP." },
-  { icon: Globe, title: "Se-Indonesia", description: "Kamu di mana aja, gw bisa bantu. Seluruh Indonesia, kerja remote, hasil nyata." },
+  { icon: Smartphone, title: "Mobile Friendly", description: "Semua website tampil responsif di HP. Karena mayoritas pelanggan kamu buka dari HP." },
+  { icon: Globe, title: "Se-Indonesia", description: "Kamu di mana aja. Seluruh Indonesia, saya kerjain sistem remote" },
 ];
 
 const WhyChooseSection = () => {
@@ -21,7 +21,7 @@ const WhyChooseSection = () => {
             Kenapa Pilih <span className="gradient-text">GerobakWeb?</span>
           </h2>
           <p className="text-muted-foreground">
-            Kalau kamu ke agency, kamu antri, dealing sama admin, dan bayar harga yang udah di-markup berlapis. Di sini? Langsung ngobrol sama yang ngerjain.
+            Kalau kamu ke agency, kamu antri, dealing sama admin dulu, dan bayar harga yang udah di-markup berlapis. Di sini? Langsung ngobrol sama yang ngerjain 😇.
           </p>
         </div>
 

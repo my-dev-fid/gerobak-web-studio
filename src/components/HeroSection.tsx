@@ -30,12 +30,13 @@ const HeroSection = () => {
             </div>
 
             <h1 className="animate-fade-up-delay-1 text-4xl sm:text-5xl lg:text-6xl font-extrabold font-heading leading-tight text-foreground">
-              Usahamu Layak{" "}
-              <span className="gradient-text">Tampil di Internet.</span>
+              Website Bukan Pengeluaran.Itu Sales Team yang Kerja 24 Jam{" — "}
+              <span className="gradient-text">Tanpa Minta Gaji Bulanan.</span>
             </h1>
 
             <p className="animate-fade-up-delay-2 text-lg text-muted-foreground max-w-lg">
-              Bukan agency besar, tapi hasilnya serius. Gw bantu bikin website buat usaha kamu — simpel, cepat, dan harga yang masuk akal.
+              Bukan agency besar, Gue bikin website — khususnya landing page, Dikerjain langsung sama gue, bukan
+          tim yang ganti-ganti orang.
             </p>
 
             <div className="animate-fade-up-delay-3 flex flex-wrap gap-3">
@@ -59,7 +60,7 @@ const HeroSection = () => {
           </div>
 
           {/* Right illustration */}
-          <div className="animate-fade-up-delay-2 flex justify-center lg:justify-end">
+          <div className="animate-fade-up-delay-2 -mt-16 md:-mt-16 flex justify-center lg:justify-end">
             <img
               src={heroImg}
               alt="Ilustrasi GerobakWeb - Jasa pembuatan website UMKM"

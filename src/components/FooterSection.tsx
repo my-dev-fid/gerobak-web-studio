@@ -1,4 +1,4 @@
-import { Truck, MapPin, MessageCircle, Mail } from "lucide-react";
+import { Store, MapPin, MessageCircle, Mail } from "lucide-react";
 
 const navLinks = [
   { label: "Beranda", href: "#hero" },
@@ -10,15 +10,15 @@ const navLinks = [
 
 const paketLinks = [
   { label: "Mini Web", href: "#pricing" },
-  { label: "Starter", href: "#pricing" },
-  { label: "Standard", href: "#pricing" },
+  { label: "Mulai", href: "#pricing" },
+  { label: "Serius", href: "#pricing" },
   { label: "Kustom", href: "#pricing" },
 ];
 
 const contacts = [
   { icon: MapPin, text: "Seluruh Indonesia (Remote)" },
-  { icon: MessageCircle, text: "628XXXXXXXXXX" },
-  { icon: Mail, text: "hello@gerobakweb.com" },
+  { icon: MessageCircle, text: "+6283116293051" },
+  { icon: Mail, text: "fidihartto.pidi@gmail.com" },
 ];
 
 const Footer = () => {
@@ -33,16 +33,16 @@ const Footer = () => {
           {/* Brand */}
           <div>
             <div className="flex items-center gap-2 mb-3">
-              <Truck className="text-secondary" size={24} />
+              <Store className="text-secondary" size={24} />
               <span className="font-heading font-bold text-lg text-[hsl(0,0%,98%)]">
                 Gerobak<span className="text-primary">Web</span>
               </span>
             </div>
             <p className="text-sm leading-relaxed opacity-70">
-              Jasa Website untuk Usaha Kecil yang Mau Tampil Besar.
+              Jasa Website.
             </p>
             <p className="text-xs opacity-50 mt-2">
-              Dikerjain langsung, bukan didelegate.
+              Dari pinggir jalan ke depan layar — semua orang berhak keliatan.
             </p>
           </div>
 
@@ -89,7 +89,7 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-[hsl(217,33%,18%)] mt-10 pt-6 text-center text-xs opacity-50">
-          © 2025 GerobakWeb. Dibuat dengan kode dan kopi ☕
+          © 2026 GerobakWeb. Dibuat dengan ngopi ☕
         </div>
       </div>
     </footer>
